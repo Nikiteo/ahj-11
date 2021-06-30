@@ -1,0 +1,47 @@
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 20px;
+}
+
+h1, h2 {
+  font-weight: 400;
+}
+
+.widget {
+  margin: 0 auto;
+  width: 725px;
+  min-height: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+
+  font-weight: 400;
+  border: 1px solid #495057;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.container {
+  display: table;
+  border: 1px solid #555;
+}
+
+.row {
+  display: table-row;
+  background-color: #fff;
+  transition: all 1s ease-out;
+}
+
+.row.animate {
+  background-color: #faf6c6
+}
+
+.col {
+  display: table-cell;
+  padding: 20px;
+}
+
+.widget p {
+  font-weight: 300;
+}
